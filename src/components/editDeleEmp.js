@@ -44,11 +44,12 @@ class Table extends Component{
         const paperStyle ={padding:20, width:'75%',margin:'80px auto' }
         return(
             <div >
-               <AppBar position="static" style={{alignItems:'center'}}>
+               <AppBar position="static" >
                     <Toolbar variant="dense">
                     
                     <Typography variant="h6" color="inherit" component="div" >
-                    <center> Add Edit Employee </center>
+                    Add Edit Employee
+                    <Button variant='contained' size='small' style={{backgroundColor:'green', color:"white", left:'4rem'}} >Add Employee</Button>
                     </Typography>
                     </Toolbar>
                 </AppBar> 
